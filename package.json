@@ -1,0 +1,24 @@
+{
+  "name": "projeto-modulo-4-resilia",
+  "version": "1.0.0",
+  "description": "Projeto final modulo 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nogueiraravel/Api-escola.modulo4.git"
+  },
+  "author": "Ravel Nogueira",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "save-dev": "0.0.1-security",
+    "sqlite3": "^5.0.2"
+  }
+}
